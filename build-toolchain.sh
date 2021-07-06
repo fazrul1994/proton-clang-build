@@ -1,5 +1,28 @@
 #!/usr/bin/env bash
 
+apt install bc \
+            binutils-dev \
+            bison \
+            ca-certificates \
+            ccache \
+            clang \
+            cmake \
+            curl \
+            file \
+            flex \
+            gcc \
+            g++ \
+            git \
+            libelf-dev \
+            libssl-dev \
+            make \
+            ninja-build \
+            python3 \
+            texinfo \
+            u-boot-tools \
+            xz-utils \
+            zlib1g-dev
+
 set -eo pipefail
 
 # Function to show an informational message
