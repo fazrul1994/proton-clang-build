@@ -5,7 +5,7 @@ jobs:
       - image: z4nyx/docker:latest
    steps:
       - run:
-          command: |
+          -command: |
             apt install bc \
             binutils-dev \
             bison \
