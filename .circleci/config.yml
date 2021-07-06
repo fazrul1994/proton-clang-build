@@ -6,6 +6,29 @@ jobs:
    steps:
       - run:
           command: |
+            apt install bc \
+            binutils-dev \
+            bison \
+            ca-certificates \
+            ccache \
+            clang \
+            cmake \
+            curl \
+            file \
+            flex \
+            gcc \
+            g++ \
+            git \
+            libelf-dev \
+            libssl-dev \
+            make \
+            ninja-build \
+            python3 \
+            texinfo \
+            u-boot-tools \
+            xz-utils \
+            zlib1g-dev
+
            git config --global user.name "fazrul1994"
            git config --global user.email "fazrulfadhilah@gmail.com"
            git config --global color.ui false
